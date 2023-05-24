@@ -16,7 +16,7 @@ const apiKey ='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';
   const initialiseNewChat = useInitialiseNewChat();
   const setChats = useStore((state) => state.setChats);
   const setTheme = useStore((state) => state.setTheme);
-  const setApiKey = useStore((state) => state.setApiKey(apiKey));
+  const setApiKey = useStore((state) => state.setApiKey);
   const setCurrentChatIndex = useStore((state) => state.setCurrentChatIndex);
 
   useEffect(() => {
