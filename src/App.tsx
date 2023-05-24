@@ -12,7 +12,6 @@ import ApiPopup from '@components/ApiPopup';
 import Toast from '@components/Toast';
 
 function App() {
-const apiKey ='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';
   const initialiseNewChat = useInitialiseNewChat();
   const setChats = useStore((state) => state.setChats);
   const setTheme = useStore((state) => state.setTheme);
